@@ -21,7 +21,7 @@ export const BasicTypes = () => {
 
       <h2>Variable normal</h2>
       <button onClick={() => {
-          setName  ("lady");
+          setName  ("pereez");
           console.log("Nuevo nombre:", name);
         }}
       >
