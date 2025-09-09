@@ -7,6 +7,7 @@ export const BasicTypes = () => {
   const [isActive,setIsActive] = useState<boolean>(true);
   //let isActive: boolean = true;
 
+  
   return (
     <>
       <h3>Basic Types</h3>
@@ -43,6 +44,7 @@ export const BasicTypes = () => {
         {isActive ? 'Desactivar usuario' : 'Activar usuario'}
       </button>
     </>
+    
   );
 };
 
